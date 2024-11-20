@@ -1,0 +1,46 @@
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: linear-gradient(to top, #000000, transparent),
+    url(../bgs/a.jpg);
+
+  animation: zoomBg 8s 1 forwards;
+}
+
+svg path {
+  fill: transparent;
+  stroke: #ffffff;
+  stroke-width: 0.6;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+  animation: textAnimation 4s ease-in-out 1 forwards;
+}
+
+@keyframes textAnimation {
+  0% {
+    stroke-dashoffset: 50;
+  }
+  80% {
+    fill: transparent;
+  }
+  100% {
+    fill: #ffffff;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes zoomBg {
+  0% {
+    background-size: 100%;
+  }
+
+  100% {
+    background-size: 135%;
+  }
+}

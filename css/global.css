@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: "Poppins", serif;
+}
+
+p {
+  font-size: 0.8rem;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 500;
+}
+
+.trips {
+  img {
+    width: 10%;
+  }
+}
+
+.container {
+  padding-inline: 5rem;
+}
