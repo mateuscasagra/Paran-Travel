@@ -16,14 +16,23 @@ h1,
 h2,
 h3 {
   font-weight: 500;
-}
-
-.trips {
-  img {
-    width: 10%;
-  }
+  color: #cfe2e2;
 }
 
 .container {
   padding-inline: 5rem;
+}
+
+button {
+  all: unset;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  border-bottom: 1px solid black;
 }

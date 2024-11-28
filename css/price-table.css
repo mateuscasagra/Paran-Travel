@@ -1,0 +1,36 @@
+.content-price-table {
+  padding: 1rem;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: left;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  h2 {
+    text-align: center;
+    color: black;
+  }
+}
+
+.content-price-table th,
+.content-price-table td {
+  padding: 0.1rem 0.1rem;
+  border: 2px solid #ddd;
+  font-size: 1.5rem;
+}
+
+.content-price-table thead tr {
+  background-color: #04373b;
+  color: #fff;
+  font-weight: bold;
+}
+
+.content-price-table tbody tr:nth-child(even) {
+  background-color: #eaf5f4;
+}
+
+.content-price-table tbody tr:hover {
+  background-color: #c3e4e3;
+}

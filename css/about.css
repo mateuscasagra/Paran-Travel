@@ -1,6 +1,7 @@
 .about {
   display: flex;
-  background-color: #2f4f4f;
+  background-image: url(../bgs/bg.jpg);
+  background-size: cover;
   height: 100vh;
   align-items: center;
   justify-content: center;
